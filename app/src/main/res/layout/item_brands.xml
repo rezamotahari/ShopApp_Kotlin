@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:padding="8dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.example.novinshop_project.view.MyImageView
+        android:layout_width="@dimen/_60sdp"
+        android:id="@+id/img_brands"
+        android:layout_height="wrap_content"
+        app:viewAspectRatio="1.0"/>
+    <TextView
+        android:textSize="@dimen/_8sdp"
+        android:textColor="@color/gray_700"
+        android:id="@+id/txt_brands"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

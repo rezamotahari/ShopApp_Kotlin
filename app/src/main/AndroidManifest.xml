@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.novinshop_project">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".utils.App"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NovinShop_Project"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning,UnusedAttribute">
+        <activity
+            android:name=".feature.splash.Splash_Activty"
+            android:exported="true"
+            android:theme="@style/Theme.Green">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".feature.allAmazing.AllAmazing_Actvity"
+            android:exported="true" />
+        <activity
+            android:name=".feature.search.Search_Activity"
+            android:exported="true" />
+        <activity android:name=".feature.profile.chargeWallet.Charge_Wallet" />
+        <activity
+            android:name=".feature.profile.infoUser.Info_Activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="wallet" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".feature.detailsOrderHistory.DetailsOrder_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".feature.order.Order_Activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="novinshop" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".feature.address.AddAddress_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".feature.address.Address_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".feature.nextlevel.NextLevel_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".feature.category.brandProduct.BrandProduct_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".feature.category.subCat.SubCat_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".feature.comment.repo.insertComment.InsertCommnet_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".feature.detials.comapre.CompareProduct_Activity"
+            android:exported="true" />
+        <activity android:name=".feature.auth.verify.Verify_Activity" />
+        <activity
+            android:name=".feature.auth.register.Register_Activity"
+            android:theme="@style/Theme.Green" />
+        <activity
+            android:name=".feature.auth.Login_Activity"
+            android:theme="@style/Theme.Green" />
+        <activity android:name=".feature.comment.repo.ShowCommnet_Activity" />
+        <activity android:name=".feature.detials.property.Property_Activity" />
+        <activity android:name=".feature.detials.comapre.ComapreCategory_Activity" />
+        <activity android:name=".feature.detials.chart.HistoryPrice_Activity" />
+        <activity android:name=".feature.detials.Details_Product" />
+        <activity android:name=".MainActivity">
+
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">نوین شاپ</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_home">خانه</string>
+    <string name="title_carts">سبد خرید</string>
+    <string name="title_profiles">پروفایل</string>
+    <string name="title_category">دسته بندی</string>
+    <string name="search">جستجو در ...</string>
+    <string name="time">%d : %d : %d</string>
+    <string name="compare">مقایسه محصول</string>
+    <string name="chart_price">نمودار قیمت</string>
+    <string name="property">مشخصات فنی</string>
+    <string name="commnet">نمایش نظرات</string>
+    <string name="text">با ثبت نظر خود، ما را در ارائه خدمات بهتر یاری نمایید</string>
+    <string name="auth">برای ورود یا ثبت نام در نوین شاپ شماره خود را وارد کنید</string>
+    <string name="login">ورود به حساب کاربری</string>
+    <string name="privacy">با ورود یا ثبت نام در نوین شاپ شما شرایط و قوانین استفاده از سرویس های اپلیکیشن نوین شاپ و قوانین حریم خصوصی آن را می پذیرید</string>
+    <string name="register">ثبت نام در اپلیکیشن</string>
+    <string name="brands">محبوب ترین برندها</string>
+    <string name="favouritProduct">محبوب ترین کالاها</string>
+    <string name="favourit">محبوب ترین ها</string>
+    <string name="brandsProduct">محصولات برند</string>
+    <string name="emptyCart">محصولی در سبد خرید شما موجود نمی باشد</string>
+    <string name="isLogin">لطفا وارد حساب کاربری خود شوید</string>
+    <string name="total_price">مبلغ کل سبد خرید:</string>
+    <string name="off_price">مبلغ تخفیف:</string>
+    <string name="paybale_price">مبلغ قابل پرداخت:</string>
+    <string name="count">تعداد:</string>
+    <string name="info_deleviry">اطلاعات ارسال</string>
+    <string name="address">آدرس ها</string>
+    <string name="buy">نحوه پرداختی خود را انتخاب کنید</string>
+    <string name="wallet">کیف پول</string>
+    <string name="direct">خرید مستقیم</string>
+    <string name="cloud">سفارش در حال پردازش</string>
+    <string name="addd_address">ثبت آدرس جدید</string>
+    <string name="info">اطلاعات کاربری</string>
+    <string name="searchProduct">جستجو</string>
+    <string name="emptyFavourite">لیست علاقه مندی های شما خالی می باشد</string>
+    <string name="lowPrice">کم به زیاد</string>
+    <string name="highPrice">زیاد به کم</string>
+    <string name="popular">محبوب ترین</string>
+    <string name="all_amazing">محصولات شگفت انگیز</string>
+    <string name="add_comment">ثبت نظر</string>
+    <string-array name="sortArray">
+
+        <item>@string/popular</item>
+        <item>@string/lowPrice</item>
+        <item>@string/highPrice</item>
+    </string-array>
+
+</resources>

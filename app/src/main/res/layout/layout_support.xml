@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="12dp"
+    android:orientation="vertical"
+    app:cardBackgroundColor="@color/gray_200"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="میزبان صدای گرمتان هستیم"
+            android:textColor="@color/gray_900"
+            android:textSize="@dimen/_11sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:text="7 روزه هفته - 24 ساعته"
+            android:textColor="@color/gray_700"
+            android:textSize="@dimen/_8sdp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:gravity="center_vertical"
+            android:layoutDirection="rtl"
+            android:orientation="horizontal">
+
+            <ImageView
+                app:tint="@color/green_500"
+                android:padding="8dp"
+                app:srcCompat="@drawable/newphone"
+                android:background="@drawable/shape_oval_image"
+                android:layout_width="46dp"
+                android:layout_height="46dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_6sdp"
+                android:text="021-49215"
+                android:textColor="@color/gray_700"
+                android:textSize="@dimen/_10sdp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:gravity="center_vertical"
+            android:layoutDirection="rtl"
+            android:orientation="horizontal">
+
+            <ImageView
+                app:tint="@color/green_500"
+
+                android:padding="8dp"
+                app:srcCompat="@drawable/ic_chat"
+                android:background="@drawable/shape_oval_image"
+                android:layout_width="46dp"
+                android:layout_height="46dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_6sdp"
+                android:text="021-49215"
+                android:textColor="@color/gray_700"
+                android:textSize="@dimen/_10sdp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:gravity="center_vertical"
+            android:layoutDirection="rtl"
+            android:orientation="horizontal">
+
+            <ImageView
+                app:tint="@color/green_500"
+                android:padding="8dp"
+                app:srcCompat="@drawable/newinfo"
+                android:background="@drawable/shape_oval_image"
+                android:layout_width="46dp"
+                android:layout_height="46dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_6sdp"
+                android:text="novindevelopers@yahoo.com"
+                android:textColor="@color/gray_700"
+                android:textSize="@dimen/_10sdp" />
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

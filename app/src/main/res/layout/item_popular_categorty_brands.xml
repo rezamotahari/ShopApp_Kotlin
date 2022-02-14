@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_90sdp"
+    android:padding="12dp"
+        android:layout_margin="4dp"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<com.example.novinshop_project.view.MyImageView
+    android:layout_width="@dimen/_70sdp"
+    app:viewAspectRatio="1.0"
+    android:id="@+id/img_similar"
+    android:layout_height="wrap_content"/>
+    <TextView
+        android:gravity="center"
+        android:ellipsize="end"
+        android:lines="2"
+        android:id="@+id/txt_similar"
+        android:textColor="@color/gray_900"
+        android:textSize="@dimen/_7sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/txt_price"
+        android:textColor="@color/green_500"
+        android:textSize="@dimen/_8sdp"
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

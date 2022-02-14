@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.novinshop_project.view.MyImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    app:roundedCornerRadius="@dimen/_8sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="@dimen/_4sdp"
+    android:id="@+id/img_banners_type_main"
+    android:layout_height="@dimen/_100sdp">
+
+</com.example.novinshop_project.view.MyImageView>

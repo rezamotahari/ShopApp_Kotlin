@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="rtl"
+    android:id="@+id/coordinatorw"
+    android:layout_height="match_parent"
+    tools:context=".feature.profile.chargeWallet.Charge_Wallet">
+<include layout="@layout/toolbar"/>
+    <LinearLayout
+        android:padding="@dimen/_8sdp"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:textSize="@dimen/_10sdp"
+            android:textColor="@color/gray_900"
+            android:text="لطفا مبلغ مورد نظر خود را وار کنید"
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:hint=" تومان"
+
+            app:startIconDrawable="@drawable/ic_baseline_monetization_on_24"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:inputType="number"
+                android:id="@+id/edt_wallet_charge"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:padding="@dimen/_4sdp"
+            android:id="@+id/btn_wallet_charge"
+            android:text="تائید خرید"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

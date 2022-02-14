@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.novinshop_project.view.MyImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:viewAspectRatio="1.0"
+    android:padding="@dimen/_8sdp"
+    android:id="@+id/img_popular_main"
+    android:layout_height="wrap_content">
+
+</com.example.novinshop_project.view.MyImageView>

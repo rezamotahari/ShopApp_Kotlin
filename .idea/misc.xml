@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/drawable/ic_a1.xml" value="0.534375" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/drawable/ic_a2.xml" value="0.534375" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/drawable/ic_a3.xml" value="0.534375" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/drawable/ic_a4.xml" value="0.534375" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/drawable/ic_baseline_add_location_alt_24.xml" value="0.534375" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/drawable/ic_call.xml" value="0.534375" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/drawable/ic_delivery_man.xml" value="0.46625" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/drawable/ic_schedule.xml" value="0.534375" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/drawable/ic_shopping_bag.xml" value="0.534375" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/drawable/ic_wall_clock.xml" value="0.46625" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/drawable/ic_wallet.xml" value="0.534375" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/drawable/shape_image_basket.xml" value="0.46625" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/drawable/shape_percent.xml" value="0.46625" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/drawable/shape_profile_background.xml" value="0.534375" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/drawable/shape_ring.xml" value="0.534375" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/drawable/shape_rtlv_color.xml" value="0.534375" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/drawable/shape_rtlv_color_selected.xml" value="0.534375" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/drawable/shape_text_size_selected.xml" value="0.534375" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/drawable/shape_txt_category_serach.xml" value="0.534375" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/drawable/shape_txt_one.xml" value="0.534375" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/drawable/shape_txt_three.xml" value="0.534375" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/drawable/shape_txt_two.xml" value="0.534375" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/activity_add_address.xml" value="0.5" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/activity_address.xml" value="0.50390625" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/activity_all_amazing_actvity.xml" value="0.50390625" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/activity_brand_product.xml" value="0.33" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/activity_charge_wallet.xml" value="0.50390625" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/activity_details_order.xml" value="0.50390625" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/activity_details_product.xml" value="0.478125" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/activity_info.xml" value="0.50390625" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/activity_insert_commnet.xml" value="0.478125" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/activity_main.xml" value="0.50390625" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/activity_next_level.xml" value="0.50390625" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/activity_order.xml" value="0.50390625" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/activity_search.xml" value="0.50390625" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/activity_splash_activty.xml" value="0.50390625" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/activity_sub_cat.xml" value="0.44538834951456313" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/dialog_buy.xml" value="0.50390625" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/dialog_more.xml" value="0.478125" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/dialog_remove.xml" value="0.50390625" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/empty_login.xml" value="0.50390625" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/fragment_cart.xml" value="0.5" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/fragment_category.xml" value="0.44538834951456313" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/fragment_favourit.xml" value="0.50390625" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/fragment_home.xml" value="0.449669360764144" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/fragment_profile.xml" value="0.50390625" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/item_adress.xml" value="0.50390625" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/item_amazing_product.xml" value="0.42354368932038833" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/item_banners.xml" value="0.4381067961165049" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/item_basket.xml" value="0.478125" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/item_brand_prodduct.xml" value="0.42354368932038833" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/item_brands.xml" value="0.2609375" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/item_cart.xml" value="0.50390625" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/item_categoryl.xml" value="0.44538834951456313" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/item_checkout_product.xml" value="0.50390625" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/item_color_product.xml" value="0.9" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/item_detils_order.xml" value="0.50390625" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/item_favourite.xml" value="0.50390625" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/item_image_order.xml" value="0.50390625" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/item_insert_score.xml" value="1.5" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/item_order.xml" value="0.50390625" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/item_part_one.xml" value="0.246875" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/item_part_two.xml" value="0.50390625" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/item_paybale_price.xml" value="0.50390625" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/item_popular_categorty_brands.xml" value="0.2609375" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/item_score.xml" value="0.5" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/item_show_comment.xml" value="0.478125" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/item_size.xml" value="0.50390625" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/item_subcat_level.xml" value="0.44538834951456313" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/layout_empty_state.xml" value="0.22" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/layout_empty_state_favourite.xml" value="0.478125" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/layout_garanty.xml" value="0.42354368932038833" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/layout_profile.xml" value="0.5" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/layout_skip.xml" value="0.5" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/layout_skip2.xml" value="0.67" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/progress_view.xml" value="0.50390625" />
+        <entry key="..\:/Users/NovinDevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/toolbar.xml" value="0.50390625" />
+        <entry key="..\:/Users/Novindevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/drawable-v24/ic_like_comment.xml" value="0.53203125" />
+        <entry key="..\:/Users/Novindevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/drawable-v24/ic_question_comment.xml" value="0.53203125" />
+        <entry key="..\:/Users/Novindevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/drawable-v24/shape_oval_image.xml" value="0.5166919575113809" />
+        <entry key="..\:/Users/Novindevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.53203125" />
+        <entry key="..\:/Users/Novindevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/drawable/ic_baseline_clear_24.xml" value="0.5166919575113809" />
+        <entry key="..\:/Users/Novindevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.2421875" />
+        <entry key="..\:/Users/Novindevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.5166919575113809" />
+        <entry key="..\:/Users/Novindevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/drawable/ic_cash.xml" value="0.5166919575113809" />
+        <entry key="..\:/Users/Novindevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/drawable/ic_dislike_comment.xml" value="0.53203125" />
+        <entry key="..\:/Users/Novindevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/drawable/ic_favourite_heart.xml" value="0.5166919575113809" />
+        <entry key="..\:/Users/Novindevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/drawable/ic_loan.xml" value="0.5166919575113809" />
+        <entry key="..\:/Users/Novindevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/drawable/ic_protection.xml" value="0.5166919575113809" />
+        <entry key="..\:/Users/Novindevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/activity_compare_product.xml" value="0.5015625" />
+        <entry key="..\:/Users/Novindevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/activity_details_product.xml" value="0.45375" />
+        <entry key="..\:/Users/Novindevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/activity_insert_commnet.xml" value="0.5015625" />
+        <entry key="..\:/Users/Novindevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/activity_show_commnet.xml" value="0.50125" />
+        <entry key="..\:/Users/Novindevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/fragment_home.xml" value="0.45375" />
+        <entry key="..\:/Users/Novindevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/fragment_sub_cat_level__fragmnet.xml" value="0.5015625" />
+        <entry key="..\:/Users/Novindevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/item_compare_chile.xml" value="0.5015625" />
+        <entry key="..\:/Users/Novindevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/item_compare_parent.xml" value="0.5015625" />
+        <entry key="..\:/Users/Novindevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/item_subcat_level.xml" value="0.48710166919575115" />
+        <entry key="..\:/Users/Novindevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/layout_by_product.xml" value="0.49625" />
+        <entry key="..\:/Users/Novindevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/layout_garanty.xml" value="0.5015625" />
+        <entry key="..\:/Users/Novindevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/layout_support.xml" value="0.5015625" />
+        <entry key="..\:/Users/reza/Desktop/New folder (2)/source_to-108/NovinShop_Project/app/src/main/res/drawable/home_tab.xml" value="0.1065" />
+        <entry key="..\:/Users/reza/Desktop/New folder (2)/source_to-108/NovinShop_Project/app/src/main/res/layout/activity_details_product.xml" value="0.14055472263868066" />
+        <entry key="..\:/Users/reza/Desktop/New folder (2)/source_to-108/NovinShop_Project/app/src/main/res/layout/activity_main.xml" value="0.4175" />
+        <entry key="..\:/Users/reza/Desktop/New folder (2)/source_to-108/NovinShop_Project/app/src/main/res/layout/fragment_home.xml" value="0.10133495145631068" />
+        <entry key="..\:/Users/reza/Desktop/New folder (2)/source_to-108/NovinShop_Project/app/src/main/res/layout/item_amazing_product.xml" value="0.2109375" />
+        <entry key="..\:/Users/reza/Desktop/New folder (2)/source_to-108/NovinShop_Project/app/src/main/res/layout/item_category_home.xml" value="0.10133495145631068" />
+        <entry key="..\:/Users/reza/Desktop/New folder (2)/source_to-108/NovinShop_Project/app/src/main/res/menu/bottom_nav.xml" value="0.18984375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

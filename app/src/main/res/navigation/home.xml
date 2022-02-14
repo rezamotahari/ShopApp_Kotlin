@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home"
+    app:startDestination="@id/home2">
+
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.example.novinshop_project.feature.home.Home"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home2_to_subCatLevel_Fragmnet"
+            app:destination="@id/subCatLevel_Fragmnet" />
+    </fragment>
+    <fragment
+        android:id="@+id/subCatLevel_Fragmnet"
+        android:name="com.example.novinshop_project.feature.home.subCatLevel.SubCatLevel_Fragmnet"
+        android:label="fragment_sub_cat_level__fragmnet"
+        tools:layout="@layout/fragment_sub_cat_level__fragmnet" />
+</navigation>
