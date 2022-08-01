@@ -3,6 +3,7 @@ package com.example.novinshop_project.feature.comment.repo.insertComment
 import android.os.Bundle
 import android.util.Log
 import android.view.View
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.novinshop_project.R
@@ -36,6 +37,7 @@ class InsertCommnet_Activity : BaseActivity(), AdapterScoreInsert.OnChangeItemSl
     var checkStatus: Boolean = false
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         setContentView(R.layout.activity_insert_commnet)
         txt_title_activity.text = getString(R.string.add_comment)
         img_Back.setOnClickListener {

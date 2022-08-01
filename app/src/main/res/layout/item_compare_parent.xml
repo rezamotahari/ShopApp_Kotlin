@@ -6,6 +6,7 @@
     android:layout_margin="8dp"
     android:layoutDirection="rtl"
     android:orientation="vertical"
+    android:background="@color/white"
    >
 
     <TextView

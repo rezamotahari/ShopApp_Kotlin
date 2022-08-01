@@ -4,6 +4,7 @@ import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatDelegate
 import com.example.novinshop_project.R
 import com.example.novinshop_project.feature.auth.TokenContainer
 import com.google.android.material.snackbar.Snackbar
@@ -13,6 +14,7 @@ class Charge_Wallet : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_charge_wallet)
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         btn_wallet_charge.setOnClickListener {
 
             if (edt_wallet_charge.length()>0)

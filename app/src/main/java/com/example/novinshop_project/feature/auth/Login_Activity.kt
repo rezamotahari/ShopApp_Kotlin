@@ -3,6 +3,7 @@ package com.example.novinshop_project.feature.auth
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatDelegate
 import com.example.novinshop_project.R
 import com.example.novinshop_project.feature.auth.register.Register_Activity
 import com.google.android.material.snackbar.Snackbar
@@ -14,7 +15,7 @@ class Login_Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
-
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         btn_login.setOnClickListener {
 
             val phone = edt_login.text.toString().trim()

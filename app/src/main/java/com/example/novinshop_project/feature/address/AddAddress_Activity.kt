@@ -3,6 +3,7 @@ package com.example.novinshop_project.feature.address
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatDelegate
 import com.example.novinshop_project.R
 import com.google.android.material.snackbar.Snackbar
 import com.google.gson.JsonObject
@@ -15,6 +16,7 @@ class AddAddress_Activity : AppCompatActivity() {
     val addressViewModel: AddressViewModel by viewModel()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         setContentView(R.layout.activity_add_address)
 
         txt_title_activity.text = getString(R.string.addd_address)

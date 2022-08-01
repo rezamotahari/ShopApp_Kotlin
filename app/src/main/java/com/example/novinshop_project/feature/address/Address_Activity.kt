@@ -3,6 +3,7 @@ package com.example.novinshop_project.feature.address
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.novinshop_project.R
@@ -22,6 +23,7 @@ class Address_Activity :BaseActivity(),AdapterShowAddress.OnClickItemAddress {
     val addressViewModel :AddressViewModel by viewModel()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         setContentView(R.layout.activity_address)
         txt_title_activity.text = getString(R.string.address)
         img_Back.setOnClickListener { finish() }

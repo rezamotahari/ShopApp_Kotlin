@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.LinearLayout
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.novinshop_project.R
@@ -27,6 +28,7 @@ class Category :BaseFragment(),AdapterCategory.OnClickSubCatItem {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         // Inflate the layout for this fragment
         val view:View= inflater.inflate(R.layout.fragment_category, container, false)
         return view
@@ -34,6 +36,7 @@ class Category :BaseFragment(),AdapterCategory.OnClickSubCatItem {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         val parent =view.findViewById<LinearLayout>(R.id.lnr_category_container)
         categoryViewModel.categoryLiveData.observe(viewLifecycleOwner)
         {

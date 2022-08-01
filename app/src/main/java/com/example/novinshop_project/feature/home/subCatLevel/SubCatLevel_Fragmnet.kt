@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.novinshop_project.R
 import com.example.novinshop_project.utils.PRODUCT_ID
@@ -27,6 +28,7 @@ val subcatLevelViewModel:SubcatLevelViewModel by viewModel { parametersOf(argume
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_sub_cat_level__fragmnet, container, false)
     }
@@ -44,6 +46,7 @@ val subcatLevelViewModel:SubcatLevelViewModel by viewModel { parametersOf(argume
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         subcatLevelViewModel.subCatLiveData.observe(viewLifecycleOwner){
             Timber.i("$it")
 

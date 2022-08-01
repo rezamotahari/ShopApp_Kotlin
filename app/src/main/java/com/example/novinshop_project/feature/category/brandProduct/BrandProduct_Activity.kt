@@ -2,6 +2,7 @@ package com.example.novinshop_project.feature.category.brandProduct
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -31,6 +32,8 @@ class BrandProduct_Activity : BaseActivity() {
     val imageLoadingServices: ImageLoadingServices by inject()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+
         setContentView(R.layout.activity_brand_product)
         txt_title_activity.text = getString(R.string.brandsProduct)
         img_Back.setOnClickListener { finish() }

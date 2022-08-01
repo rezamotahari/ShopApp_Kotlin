@@ -2,6 +2,7 @@ package com.example.novinshop_project.feature.detailsOrderHistory
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.novinshop_project.R
@@ -20,6 +21,7 @@ class DetailsOrder_Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_details_order)
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
 
         txt_title_activity.text = "جزئیات تراکنش"
         img_Back.setOnClickListener {

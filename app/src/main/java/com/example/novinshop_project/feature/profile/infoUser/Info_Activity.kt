@@ -1,6 +1,7 @@
 package com.example.novinshop_project.feature.profile.infoUser
 
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatDelegate
 import com.example.novinshop_project.R
 import com.example.novinshop_project.base.BaseActivity
 import com.example.novinshop_project.utils.PriceConverter
@@ -12,6 +13,7 @@ class Info_Activity : BaseActivity() {
     val infoViewModel :InfoViewModel by viewModel()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         setContentView(R.layout.activity_info)
         img_Back.setOnClickListener { finish() }
         txt_title_activity.text = getString(R.string.info)

@@ -2,6 +2,7 @@ package com.example.novinshop_project.feature.detials.comapre
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.novinshop_project.R
@@ -24,7 +25,7 @@ val imageLoadingServices :ImageLoadingServices by inject()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_compare_product)
-
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         txt_title_activity.text = getString(R.string.compare)
         img_Back.setOnClickListener {
 

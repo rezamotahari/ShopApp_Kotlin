@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatDelegate
 import com.example.novinshop_project.R
 import com.example.novinshop_project.utils.CHART
 import com.example.novinshop_project.utils.COMPARE
@@ -35,6 +36,7 @@ class MoreDialogBottomSheet:BottomSheetDialogFragment() {
     }
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         rltv_chart.setOnClickListener {
 
          onClickMoreDialog.onclickMore(CHART)

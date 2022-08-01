@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatDelegate
 import com.example.novinshop_project.R
 import com.example.novinshop_project.utils.*
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
@@ -16,6 +17,7 @@ var onDialogBuy:OnDialogBuy?=null
 var wallet:String?=null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         wallet = arguments?.getString(WALLET)
     }
 
@@ -24,6 +26,7 @@ var wallet:String?=null
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         return  inflater.inflate(R.layout.dialog_buy,container,false)
     }
 
@@ -33,7 +36,7 @@ var wallet:String?=null
     }
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         txt_price.text = PriceConverter.priceConverter(wallet.toString()) +" مبلغ کیف پول شما  "
 
         txt_direct.setOnClickListener {

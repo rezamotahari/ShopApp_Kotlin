@@ -2,6 +2,7 @@ package com.example.novinshop_project.feature.detials.property
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.novinshop_project.R
@@ -19,6 +20,7 @@ class Property_Activity : BaseActivity() {
     val propertyViewModel :PropertyViewModel by viewModel{ parametersOf(intent.getIntExtra("id",0))}
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         setContentView(R.layout.activity_property)
 
         txt_title_activity.text = getString(R.string.property)

@@ -5,6 +5,7 @@ import android.net.Uri
 import android.os.Bundle
 import android.util.Log
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.browser.customtabs.CustomTabsIntent
 
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -36,6 +37,7 @@ class NextLevel_Activity : BaseActivity() ,BuyDialog.OnDialogBuy{
     private  val TAG = "NextLevel_Activity"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         setContentView(R.layout.activity_next_level)
         txt_title_activity.text = getString(R.string.info_deleviry)
         img_Back.setOnClickListener {

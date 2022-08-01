@@ -3,6 +3,7 @@ package com.example.novinshop_project.feature.detials.chart
 import android.graphics.Typeface
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.content.ContextCompat
 import com.example.novinshop_project.R
 import com.github.mikephil.charting.components.AxisBase
@@ -34,6 +35,7 @@ class HistoryPrice_Activity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         setContentView(R.layout.activity_history_price)
 
         img_Back.setOnClickListener {

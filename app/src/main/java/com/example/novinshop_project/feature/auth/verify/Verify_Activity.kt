@@ -7,6 +7,7 @@ import android.os.Handler
 import android.os.Looper
 import android.widget.ProgressBar
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatDelegate
 import com.example.novinshop_project.R
 import com.example.novinshop_project.feature.auth.AuthViewMolde
 import com.example.novinshop_project.utils.SMSReceiver
@@ -24,6 +25,7 @@ class Verify_Activity : AppCompatActivity(), SMSReceiver.OTPReceiveListener {
     private var smsReceiver: SMSReceiver? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         setContentView(R.layout.activity_verify)
 
         authViewMolde.register(intent.getStringExtra("phone",),intent.getStringExtra("name"))

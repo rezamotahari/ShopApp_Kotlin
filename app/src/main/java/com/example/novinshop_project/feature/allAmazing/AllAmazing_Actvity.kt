@@ -2,6 +2,7 @@ package com.example.novinshop_project.feature.allAmazing
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.novinshop_project.R
@@ -18,6 +19,7 @@ class AllAmazing_Actvity : BaseActivity() {
     val sortViewModel :SortViewModel by viewModel { parametersOf(0) }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         setContentView(R.layout.activity_all_amazing_actvity)
         img_Back.setOnClickListener { finish() }
         txt_title_activity.text = getString(R.string.all_amazing)

@@ -105,12 +105,30 @@
         <entry key="..\:/Users/Novindevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/layout_garanty.xml" value="0.5015625" />
         <entry key="..\:/Users/Novindevelopers/AndroidStudioProjects/NovinShop_Project/app/src/main/res/layout/layout_support.xml" value="0.5015625" />
         <entry key="..\:/Users/reza/Desktop/New folder (2)/source_to-108/NovinShop_Project/app/src/main/res/drawable/home_tab.xml" value="0.1065" />
+        <entry key="..\:/Users/reza/Desktop/New folder (2)/source_to-108/NovinShop_Project/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.1" />
+        <entry key="..\:/Users/reza/Desktop/New folder (2)/source_to-108/NovinShop_Project/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.1" />
+        <entry key="..\:/Users/reza/Desktop/New folder (2)/source_to-108/NovinShop_Project/app/src/main/res/drawable/ic_favourite_heart.xml" value="0.1" />
+        <entry key="..\:/Users/reza/Desktop/New folder (2)/source_to-108/NovinShop_Project/app/src/main/res/drawable/shape_radius_cat.xml" value="0.1" />
+        <entry key="..\:/Users/reza/Desktop/New folder (2)/source_to-108/NovinShop_Project/app/src/main/res/layout/activity_compare_product.xml" value="0.2287621359223301" />
         <entry key="..\:/Users/reza/Desktop/New folder (2)/source_to-108/NovinShop_Project/app/src/main/res/layout/activity_details_product.xml" value="0.14055472263868066" />
+        <entry key="..\:/Users/reza/Desktop/New folder (2)/source_to-108/NovinShop_Project/app/src/main/res/layout/activity_history_price.xml" value="0.21484375" />
         <entry key="..\:/Users/reza/Desktop/New folder (2)/source_to-108/NovinShop_Project/app/src/main/res/layout/activity_main.xml" value="0.4175" />
+        <entry key="..\:/Users/reza/Desktop/New folder (2)/source_to-108/NovinShop_Project/app/src/main/res/layout/dialog_more.xml" value="0.21484375" />
         <entry key="..\:/Users/reza/Desktop/New folder (2)/source_to-108/NovinShop_Project/app/src/main/res/layout/fragment_home.xml" value="0.10133495145631068" />
         <entry key="..\:/Users/reza/Desktop/New folder (2)/source_to-108/NovinShop_Project/app/src/main/res/layout/item_amazing_product.xml" value="0.2109375" />
+        <entry key="..\:/Users/reza/Desktop/New folder (2)/source_to-108/NovinShop_Project/app/src/main/res/layout/item_cart.xml" value="0.216626213592233" />
+        <entry key="..\:/Users/reza/Desktop/New folder (2)/source_to-108/NovinShop_Project/app/src/main/res/layout/item_category_compare.xml" value="0.2287621359223301" />
         <entry key="..\:/Users/reza/Desktop/New folder (2)/source_to-108/NovinShop_Project/app/src/main/res/layout/item_category_home.xml" value="0.10133495145631068" />
+        <entry key="..\:/Users/reza/Desktop/New folder (2)/source_to-108/NovinShop_Project/app/src/main/res/layout/item_categoryl.xml" value="0.216626213592233" />
+        <entry key="..\:/Users/reza/Desktop/New folder (2)/source_to-108/NovinShop_Project/app/src/main/res/layout/item_color_product.xml" value="0.2287621359223301" />
+        <entry key="..\:/Users/reza/Desktop/New folder (2)/source_to-108/NovinShop_Project/app/src/main/res/layout/item_comment.xml" value="0.2287621359223301" />
+        <entry key="..\:/Users/reza/Desktop/New folder (2)/source_to-108/NovinShop_Project/app/src/main/res/layout/item_compare_chile.xml" value="0.67" />
+        <entry key="..\:/Users/reza/Desktop/New folder (2)/source_to-108/NovinShop_Project/app/src/main/res/layout/item_compare_parent.xml" value="0.2287621359223301" />
+        <entry key="..\:/Users/reza/Desktop/New folder (2)/source_to-108/NovinShop_Project/app/src/main/res/layout/layout_by_product.xml" value="0.2287621359223301" />
+        <entry key="..\:/Users/reza/Desktop/New folder (2)/source_to-108/NovinShop_Project/app/src/main/res/layout/layout_seller.xml" value="0.2287621359223301" />
         <entry key="..\:/Users/reza/Desktop/New folder (2)/source_to-108/NovinShop_Project/app/src/main/res/menu/bottom_nav.xml" value="0.18984375" />
+        <entry key="..\:/Users/reza/Desktop/project/shop/source_to-108/NovinShop_Project/app/src/main/res/layout/activity_main.xml" value="0.240625" />
+        <entry key="..\:/Users/reza/Desktop/project/shop/source_to-108/NovinShop_Project/app/src/main/res/menu/bottom_nav.xml" value="0.23515625" />
       </map>
     </option>
   </component>

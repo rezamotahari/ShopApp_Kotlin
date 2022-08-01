@@ -9,6 +9,7 @@ import android.widget.Button
 import android.widget.LinearLayout
 import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.novinshop_project.R
@@ -41,9 +42,11 @@ class Cart : BaseFragment(), AdapterCartItem.OnCartItemClick, RemoveItemDialog.O
     var removeItemDialog: RemoveItemDialog? = null
     var cartItemRemore:ProductItemItem?=null
     override fun onCreateView(
+
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         // Inflate the layout for this fragment
         val view: View = inflater.inflate(R.layout.fragment_cart, container, false)
         return view
@@ -51,6 +54,7 @@ class Cart : BaseFragment(), AdapterCartItem.OnCartItemClick, RemoveItemDialog.O
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
 
         btn_next_cart.setOnClickListener {
 
